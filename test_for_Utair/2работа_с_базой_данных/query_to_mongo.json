@@ -1,0 +1,16 @@
+db.users.find(
+  {
+    $or: [
+      {
+        "channels.email.verified": true,
+        "channels.phone.verified": false
+      },
+      {
+        "channels.email.verified": false,
+        "channels.phone.verified": true
+      }
+    ]
+  },
+);
+
+// Не так много имел дело с МонгоДБ, тестовую бд не нашел быстро. Это задание сделал с чатЖПТ

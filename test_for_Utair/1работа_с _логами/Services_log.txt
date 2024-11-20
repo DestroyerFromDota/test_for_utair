@@ -1,0 +1,378 @@
+Информация о заказе - GetOrderList
+
+Запрос:
+<soap-env:Envelope xmlns:ns0="http://www.tais.ru/" xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap-env:Body>
+    <ns0:GetOrderListInput>
+      <ns0:session_token>u349k7beesae0oc1em2na1nau4</ns0:session_token>
+      <ns0:hash>6751098ef7ffdb5717f680541f597caf</ns0:hash>
+      <ns0:rloc>51CC20/1H</ns0:rloc>
+      <ns0:user_last_name>Ivanov</ns0:user_last_name>
+      <ns0:sync_order>Y</ns0:sync_order>
+    </ns0:GetOrderListInput>
+  </soap-env:Body>
+</soap-env:Envelope>
+ 
+Ответ:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.tais.ru/">
+  <SOAP-ENV:Body>
+    <ns1:GetOrderListOutput>
+      <ns1:error>
+        <ns1:code>OK</ns1:code>
+        <ns1:description/>
+        <ns1:data/>
+        <ns1:stack/>
+      </ns1:error>
+      <ns1:currency>RUB</ns1:currency>
+      <ns1:orders>
+        <ns1:GetOrderListOrder>
+          <ns1:partner_id>-</ns1:partner_id>
+          <ns1:order_id>17523426</ns1:order_id>
+          <ns1:finalized>Y</ns1:finalized>
+          <ns1:payment_id/>
+          <ns1:partner_data/>
+          <ns1:partner_data_ex/>
+          <ns1:tickets_price>10470</ns1:tickets_price>
+          <ns1:status>T</ns1:status>
+          <ns1:owrt>RT</ns1:owrt>
+          <ns1:departure_point>MOW</ns1:departure_point>
+          <ns1:arrival_point>AER</ns1:arrival_point>
+          <ns1:segment_count>2</ns1:segment_count>
+          <ns1:segments>
+            <ns1:AirSegment>
+              <ns1:id>33739596</ns1:id>
+              <ns1:segment_id>0</ns1:segment_id>
+              <ns1:ak>UT</ns1:ak>
+              <ns1:ak_full_name>ЮТЭЙР</ns1:ak_full_name>
+              <ns1:oak>UT</ns1:oak>
+              <ns1:oak_full_name>ЮТЭЙР</ns1:oak_full_name>
+              <ns1:flight_number>347</ns1:flight_number>
+              <ns1:plane_type>735</ns1:plane_type>
+              <ns1:plane_type_name>BOEING 737</ns1:plane_type_name>
+              <ns1:departure_city_code>MOW</ns1:departure_city_code>
+              <ns1:arrival_city_code>AER</ns1:arrival_city_code>
+              <ns1:departure_city_full_name>Москва</ns1:departure_city_full_name>
+              <ns1:arrival_city_full_name>Сочи</ns1:arrival_city_full_name>
+              <ns1:departure_airport_full_name>Внуково</ns1:departure_airport_full_name>
+              <ns1:arrival_airport_full_name>Адлер</ns1:arrival_airport_full_name>
+              <ns1:departure_time>21:50:00</ns1:departure_time>
+              <ns1:arrival_time>00:15:00</ns1:arrival_time>
+              <ns1:departure_airport_code>VKO</ns1:departure_airport_code>
+              <ns1:arrival_airport_code>AER</ns1:arrival_airport_code>
+              <ns1:departure_date>12.08.2019</ns1:departure_date>
+              <ns1:arrival_date>13.08.2019</ns1:arrival_date>
+              <ns1:arrival_utc>12.08.2019 21:15:00</ns1:arrival_utc>
+              <ns1:departure_utc>12.08.2019 18:50:00</ns1:departure_utc>
+              <ns1:duration>8700</ns1:duration>
+              <ns1:class>E</ns1:class>
+              <ns1:rbd>H</ns1:rbd>
+              <ns1:layover_time>0</ns1:layover_time>
+              <ns1:direction>TO</ns1:direction>
+              <ns1:stops/>
+              <ns1:bagtype/>
+              <ns1:bagallowance/>
+              <ns1:doctype_list/>
+              <ns1:standby>N</ns1:standby>
+            </ns1:AirSegment>
+            <ns1:AirSegment>
+              <ns1:id>33739597</ns1:id>
+              <ns1:segment_id>1</ns1:segment_id>
+              <ns1:ak>UT</ns1:ak>
+              <ns1:ak_full_name>ЮТЭЙР</ns1:ak_full_name>
+              <ns1:oak>UT</ns1:oak>
+              <ns1:oak_full_name>ЮТЭЙР</ns1:oak_full_name>
+              <ns1:flight_number>580</ns1:flight_number>
+              <ns1:plane_type>738</ns1:plane_type>
+              <ns1:plane_type_name>BOEING 737</ns1:plane_type_name>
+              <ns1:departure_city_code>AER</ns1:departure_city_code>
+              <ns1:arrival_city_code>MOW</ns1:arrival_city_code>
+              <ns1:departure_city_full_name>Сочи</ns1:departure_city_full_name>
+              <ns1:arrival_city_full_name>Москва</ns1:arrival_city_full_name>
+              <ns1:departure_airport_full_name>Адлер</ns1:departure_airport_full_name>
+              <ns1:arrival_airport_full_name>Внуково</ns1:arrival_airport_full_name>
+              <ns1:departure_time>06:00:00</ns1:departure_time>
+              <ns1:arrival_time>08:20:00</ns1:arrival_time>
+              <ns1:departure_airport_code>AER</ns1:departure_airport_code>
+              <ns1:arrival_airport_code>VKO</ns1:arrival_airport_code>
+              <ns1:departure_date>28.08.2019</ns1:departure_date>
+              <ns1:arrival_date>28.08.2019</ns1:arrival_date>
+              <ns1:arrival_utc>28.08.2019 05:20:00</ns1:arrival_utc>
+              <ns1:departure_utc>28.08.2019 03:00:00</ns1:departure_utc>
+              <ns1:duration>8400</ns1:duration>
+              <ns1:class>E</ns1:class>
+              <ns1:rbd>U</ns1:rbd>
+              <ns1:layover_time>0</ns1:layover_time>
+              <ns1:direction>BACK</ns1:direction>
+              <ns1:stops/>
+              <ns1:bagtype/>
+              <ns1:bagallowance/>
+              <ns1:doctype_list/>
+              <ns1:standby>N</ns1:standby>
+            </ns1:AirSegment>
+          </ns1:segments>
+          <ns1:passenger_count>1</ns1:passenger_count>
+          <ns1:booking_timestamp/>
+          <ns1:ticketing_timestamp>02.07.2019 21:00:00</ns1:ticketing_timestamp>
+          <ns1:canceled>N</ns1:canceled>
+          <ns1:waiting_for_refund>N</ns1:waiting_for_refund>
+          <ns1:timelimit/>
+          <ns1:rloc>51CC20/1H</ns1:rloc>
+          <ns1:tickets_active>
+            <ns1:GetListOrderTicket>
+              <ns1:docno>2986141584501</ns1:docno>
+              <ns1:passcat>ADT</ns1:passcat>
+              <ns1:fare>7500</ns1:fare>
+              <ns1:taxes>2970</ns1:taxes>
+              <ns1:price_active>10470</ns1:price_active>
+              <ns1:partner_discount>0</ns1:partner_discount>
+              <ns1:partner_discount_active>0</ns1:partner_discount_active>
+              <ns1:psgid>24402119</ns1:psgid>
+              <ns1:refundable>Y</ns1:refundable>
+            </ns1:GetListOrderTicket>
+          </ns1:tickets_active>
+          <ns1:tickets_returned/>
+          <ns1:full_price>10769</ns1:full_price>
+          <ns1:partner_fee/>
+          <ns1:full_price_active>10470</ns1:full_price_active>
+          <ns1:parner_discount>0</ns1:parner_discount>
+          <ns1:parner_discount_active>0</ns1:parner_discount_active>
+          <ns1:partner_discount>0</ns1:partner_discount>
+          <ns1:partner_discount_active>0</ns1:partner_discount_active>
+          <ns1:transfer_start_time>12.08.2019 18:50:00</ns1:transfer_start_time>
+          <ns1:transfer_end_time>28.08.2019 03:00:00</ns1:transfer_end_time>
+          <ns1:pay_method_id>58_7</ns1:pay_method_id>
+          <ns1:pay_method_code>TCH</ns1:pay_method_code>
+          <ns1:ctc_gender/>
+          <ns1:ctc_last_name/>
+          <ns1:ctc_first_name/>
+          <ns1:ctc_second_name/>
+          <ns1:ctc_mail>EXAMPLE@EXAMPLE.COM</ns1:ctc_mail>
+          <ns1:ctc_phone2/>
+          <ns1:ctc_phone>+70000000000</ns1:ctc_phone>
+          <ns1:order_key>352dfc0209d648887f18fe8d19a8de913a1f607fd0176ad04a4c54ab16feac3e</ns1:order_key>
+        </ns1:GetOrderListOrder>
+      </ns1:orders>
+    </ns1:GetOrderListOutput>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+
+-----------------------------------------------------------------------------------
+
+Добавление услуги в заказ - AddOrderService
+
+Запрос:
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap-env:Body>
+  <ns0:AddOrderServiceInput xmlns:ns0="http://www.tais.ru/">
+   <ns0:session_token>u349k7beesae0oc1em2na1nau4</ns0:session_token>
+   <ns0:hash>6751098ef7ffdb5717f680541f597caf</ns0:hash>
+   <ns0:order_id>17523426</ns0:order_id>
+   <ns0:services>
+    <ns0:service>
+     <ns0:id>4506</ns0:id>
+     <ns0:count>1</ns0:count>
+     <ns0:passenger_id>ADT1</ns0:passenger_id>
+     <ns0:segment_id>2</ns0:segment_id>
+    </ns0:service>
+   </ns0:services>
+  </ns0:AddOrderServiceInput>
+ </soap-env:Body>
+</soap-env:Envelope>
+ 
+Ответ:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.tais.ru/">
+ <SOAP-ENV:Body>
+  <ns1:AddOrderServiceOutput>
+   <ns1:error>
+    <ns1:code>OK</ns1:code>
+    <ns1:description>
+</ns1:description>
+    <ns1:data/>
+    <ns1:stack>
+</ns1:stack>
+   </ns1:error>
+  </ns1:AddOrderServiceOutput>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+------------------------------------------------------------------------------
+
+Бронирование услуги - Book
+
+Запрос:
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+ <soap-env:Body>
+  <ns0:BookInput xmlns:ns0="http://www.tais.ru/">
+   <ns0:session_token>u349k7beesae0oc1em2na1nau4</ns0:session_token>
+   <ns0:hash>6751098ef7ffdb5717f680541f597caf</ns0:hash>
+   <ns0:donot_init_payment>Y</ns0:donot_init_payment>
+  </ns0:BookInput>
+ </soap-env:Body>
+</soap-env:Envelope>
+<!-- Book -->"
+ 
+Ответ:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.tais.ru/">
+ <SOAP-ENV:Body>
+  <ns1:BookOutput>
+   <ns1:error>
+    <ns1:code>OK</ns1:code>
+    <ns1:description>
+</ns1:description>
+    <ns1:data/>
+    <ns1:stack>
+</ns1:stack>
+   </ns1:error>
+   <ns1:rloc>38VKD7/1H</ns1:rloc>
+   <ns1:payment_id>
+</ns1:payment_id>
+   <ns1:order_id>17523426</ns1:order_id>
+   <ns1:order_key>170b564b38c91b4edf9fe41cf22e69dc10cc3f979ccb12513a6db95a7ffaadb9</ns1:order_key>
+   <ns1:confirmed_price>0</ns1:confirmed_price>
+   <ns1:segments>
+    <ns1:AirSegment>
+        <ns1:id>33739596</ns1:id>
+        <ns1:segment_id>0</ns1:segment_id>
+        <ns1:ak>UT</ns1:ak>
+        <ns1:ak_full_name>ЮТЭЙР</ns1:ak_full_name>
+        <ns1:oak>UT</ns1:oak>
+        <ns1:oak_full_name>ЮТЭЙР</ns1:oak_full_name>
+        <ns1:flight_number>347</ns1:flight_number>
+        <ns1:plane_type>735</ns1:plane_type>
+        <ns1:plane_type_name>BOEING 737</ns1:plane_type_name>
+        <ns1:departure_city_code>MOW</ns1:departure_city_code>
+        <ns1:arrival_city_code>AER</ns1:arrival_city_code>
+        <ns1:departure_city_full_name>Москва</ns1:departure_city_full_name>
+        <ns1:arrival_city_full_name>Сочи</ns1:arrival_city_full_name>
+        <ns1:departure_airport_full_name>Внуково</ns1:departure_airport_full_name>
+        <ns1:arrival_airport_full_name>Адлер</ns1:arrival_airport_full_name>
+        <ns1:departure_time>21:50:00</ns1:departure_time>
+        <ns1:arrival_time>00:15:00</ns1:arrival_time>
+        <ns1:departure_airport_code>VKO</ns1:departure_airport_code>
+        <ns1:arrival_airport_code>AER</ns1:arrival_airport_code>
+        <ns1:departure_date>12.08.2019</ns1:departure_date>
+        <ns1:arrival_date>13.08.2019</ns1:arrival_date>
+        <ns1:arrival_utc>12.08.2019 21:15:00</ns1:arrival_utc>
+        <ns1:departure_utc>12.08.2019 18:50:00</ns1:departure_utc>
+        <ns1:duration>8700</ns1:duration>
+        <ns1:class>E</ns1:class>
+        <ns1:rbd>H</ns1:rbd>
+        <ns1:layover_time>0</ns1:layover_time>
+        <ns1:direction>TO</ns1:direction>
+        <ns1:stops/>
+        <ns1:bagtype/>
+        <ns1:bagallowance/>
+        <ns1:doctype_list/>
+        <ns1:standby>N</ns1:standby>
+      </ns1:AirSegment>
+      <ns1:AirSegment>
+         <ns1:id>33739597</ns1:id>
+         <ns1:segment_id>1</ns1:segment_id>
+         <ns1:ak>UT</ns1:ak>
+         <ns1:ak_full_name>ЮТЭЙР</ns1:ak_full_name>
+         <ns1:oak>UT</ns1:oak>
+         <ns1:oak_full_name>ЮТЭЙР</ns1:oak_full_name>
+         <ns1:flight_number>580</ns1:flight_number>
+         <ns1:plane_type>738</ns1:plane_type>
+         <ns1:plane_type_name>BOEING 737</ns1:plane_type_name>
+         <ns1:departure_city_code>AER</ns1:departure_city_code>
+         <ns1:arrival_city_code>MOW</ns1:arrival_city_code>
+         <ns1:departure_city_full_name>Сочи</ns1:departure_city_full_name>
+         <ns1:arrival_city_full_name>Москва</ns1:arrival_city_full_name>
+         <ns1:departure_airport_full_name>Адлер</ns1:departure_airport_full_name>
+         <ns1:arrival_airport_full_name>Внуково</ns1:arrival_airport_full_name>
+         <ns1:departure_time>06:00:00</ns1:departure_time>
+         <ns1:arrival_time>08:20:00</ns1:arrival_time>
+         <ns1:departure_airport_code>AER</ns1:departure_airport_code>
+         <ns1:arrival_airport_code>VKO</ns1:arrival_airport_code>
+         <ns1:departure_date>28.08.2019</ns1:departure_date>
+         <ns1:arrival_date>28.08.2019</ns1:arrival_date>
+         <ns1:arrival_utc>28.08.2019 05:20:00</ns1:arrival_utc>
+         <ns1:departure_utc>28.08.2019 03:00:00</ns1:departure_utc>
+         <ns1:duration>8400</ns1:duration>
+         <ns1:class>E</ns1:class>
+         <ns1:rbd>U</ns1:rbd>
+         <ns1:layover_time>0</ns1:layover_time>
+         <ns1:direction>BACK</ns1:direction>
+         <ns1:stops/>
+         <ns1:bagtype/>
+         <ns1:bagallowance/>
+         <ns1:doctype_list/>
+         <ns1:standby>N</ns1:standby>
+     </ns1:AirSegment>
+    </ns1:segments>
+   <ns1:full_price>0</ns1:full_price>
+   <ns1:partner_fee>0</ns1:partner_fee>
+   <ns1:parner_discount>0</ns1:parner_discount>
+   <ns1:partner_discount>0</ns1:partner_discount>
+   <ns1:pay_method_id>120_7</ns1:pay_method_id>
+   <ns1:pay_method_code>TCH</ns1:pay_method_code>
+   <ns1:services/>
+  </ns1:BookOutput>
+ </SOAP-ENV:Body>
+ 
+ -----------------------------------------------------------------------------
+ 
+ Пример ответа Book, где услуга забронирована успешно
+ 
+ <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://www.tais.ru/">
+  <SOAP-ENV:Body>
+    <ns1:BookOutput>
+      <ns1:error>
+        <ns1:code>OK</ns1:code>
+        <ns1:description/>
+        <ns1:data/>
+        <ns1:stack/>
+      </ns1:error>
+      <ns1:rloc>54SMW2/1H</ns1:rloc>
+      <ns1:payment_id/>
+      <ns1:order_id>17523426</ns1:order_id>
+      <ns1:order_key>7f24236e92ebbf845c385d7071643b8998ec056a947d76c516e720ddfced0b19</ns1:order_key>
+      <ns1:confirmed_price>5784</ns1:confirmed_price>
+      <ns1:segments>
+        <ns1:AirSegment>
+          <ns1:ak>UT</ns1:ak>
+          <ns1:oak>UT</ns1:oak>
+          <ns1:flight_number>369</ns1:flight_number>
+          <ns1:plane_type>735</ns1:plane_type>
+          <ns1:plane_type_name>BOEING 737</ns1:plane_type_name>
+          <ns1:departure_time>10:35:00</ns1:departure_time>
+          <ns1:arrival_time>11:55:00</ns1:arrival_time>
+          <ns1:departure_airport_code>VKO</ns1:departure_airport_code>
+          <ns1:arrival_airport_code>LED</ns1:arrival_airport_code>
+          <ns1:departure_date>17.07.2019</ns1:departure_date>
+          <ns1:arrival_date>17.07.2019</ns1:arrival_date>
+          <ns1:arrival_utc>17.07.2019 08:55:00</ns1:arrival_utc>
+          <ns1:departure_utc>17.07.2019 07:35:00</ns1:departure_utc>
+          <ns1:duration>4800</ns1:duration>
+          <ns1:class>E</ns1:class>
+          <ns1:rbd>O</ns1:rbd>
+          <ns1:layover_time>0</ns1:layover_time>
+          <ns1:direction>TO</ns1:direction>
+          <ns1:stops/>
+          <ns1:standby>N</ns1:standby>
+        </ns1:AirSegment>
+      </ns1:segments>
+      <ns1:full_price>5784</ns1:full_price>
+      <ns1:partner_fee>0</ns1:partner_fee>
+      <ns1:parner_discount>0</ns1:parner_discount>
+      <ns1:partner_discount>0</ns1:partner_discount>
+      <ns1:pay_method_id>58_7</ns1:pay_method_id>
+      <ns1:pay_method_code>TCH</ns1:pay_method_code>
+      <ns1:services>
+        <ns1:service>
+          <ns1:provider>sig</ns1:provider>
+          <ns1:type>ssr</ns1:type>
+          <ns1:type2>baggage</ns1:type2>
+          <ns1:id>4503</ns1:id>
+          <ns1:description/>
+          <ns1:price>999.00</ns1:price>
+          <ns1:count>1.00</ns1:count>
+          <ns1:passenger_id>1</ns1:passenger_id>
+          <ns1:segment_id>0</ns1:segment_id>
+        </ns1:service>
+      </ns1:services>
+    </ns1:BookOutput>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
